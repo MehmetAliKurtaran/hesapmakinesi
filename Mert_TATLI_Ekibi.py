@@ -28,6 +28,7 @@ while True:
             else:
                 print(icerik[int(basliksecimi)-1])
 
+
     elif secim == '3':
         if baslik == []:
             print("Not listeniz şu anda boş!")
