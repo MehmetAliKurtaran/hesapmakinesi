@@ -51,6 +51,7 @@ while True:
             basliksecimi = input("Hangi içerği silmek istiyorsunuz?")
             if int(basliksecimi)> len(baslik):
                 print("Geçersiz not seçimi!")
+                print()
             else:
                 baslik.pop(int(basliksecimi) - 1)
                 icerik.pop(int(basliksecimi) - 1)
